@@ -3,6 +3,22 @@
 // Date: April 2nd, 2024
 // Assignment 4 - C and Data Structures
 
+/*
+Some information regarding my implementation of the hashtable
+
+It's implemented as an array of linked lists, where the array is a predefined length and each linked list associated with each array index is (dependent on ram) 
+infinitely expandable. Refer to the following example:
+
+    Array[5] ----- Linked list
+    [0] -> {0} -> {1} -> infinity
+    [1] -> {0} -> {1} -> infinity
+    [2] -> {0} -> {1} -> infinity
+    [3] -> {0} -> {1} -> infinity
+    [4] -> {0} -> {1} -> infinity
+
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
