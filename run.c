@@ -23,20 +23,6 @@ void printList(NodePtr);
 int hashTableInsert(NodePtr index[N], int key);
 void menu();
 
-void _ITRTEST(NodePtr hash);
-
-
-void _ITRTEST(NodePtr hash) {
-    NodePtr current = hash;
-    
-    while(current != NULL) {
-        printf("[%d]->",hash->num);
-        current = current->next;
-    }
-
-}
-
-
 // main function
 int main() {
 
@@ -118,10 +104,6 @@ NodePtr newNode (int n){
     p->next = NULL;
     return p;
 }
-
-
-
-
 
 // prints all elements inside a single element of the hash[]
 void printList(NodePtr front){
