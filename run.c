@@ -1,7 +1,7 @@
 // Elliot Currie
 // Student Number: 991644153
 // Date: April 2nd, 2024
-// Assignment 4 - C and Data Structures
+// Assignment 4 - C and Data Structures -> hashing implementation, handles collisions with chaining
 
 /*
 Some information regarding my implementation of the hashtable
